@@ -1,4 +1,4 @@
-public_html
+Windows 8 Loader Example
 ===========
 
-Windows 8 Loader Example
+pedrovictorfreire@gmail.com
