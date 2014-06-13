@@ -1,0 +1,109 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11/06/2014, 17:09:20
+    Author     : Pedriinho
+*/
+
+body {
+  background-color: #3498db;
+  overflow:hidden;
+  -webkit-animation: bgcolor 30s linear infinite alternate;
+  -moz-animation: bgcolor 30s linear infinite alternate;
+  animation: bgcolor 30s linear infinite alternate;
+}
+div {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background-color: #fff;
+  top: 45%;
+  border-radius: 50%;
+}
+
+#first {
+  -webkit-animation: move 2s infinite cubic-bezier(0.2,0.64,0.81,0.23);
+  -moz-animation: move 2s infinite cubic-bezier(0.2,0.64,0.81,0.23);
+  animation: move 2s infinite cubic-bezier(0.2,0.64,0.81,0.23);
+}
+#second {
+  -webkit-animation: move 2s 150ms infinite cubic-bezier(0.2,0.64,0.81,0.23);
+  -moz-animation: move 2s 150ms infinite cubic-bezier(0.2,0.64,0.81,0.23);
+  animation: move 2s 150ms infinite cubic-bezier(0.2,0.64,0.81,0.23);
+}
+#third {
+  -webkit-animation: move 2s 300ms infinite cubic-bezier(.2,.64,.81,.23);
+  -moz-animation: move 2s 300ms infinite cubic-bezier(.2,.64,.81,.23);
+  animation: move 2s 300ms infinite cubic-bezier(.2,.64,.81,.23);
+}
+#forth {
+  -webkit-animation: move 2s 450ms infinite cubic-bezier(.2,.64,.81,.23);
+  -moz-animation: move 2s 450ms infinite cubic-bezier(.2,.64,.81,.23);
+  animation: move 2s 450ms infinite cubic-bezier(.2,.64,.81,.23);
+  
+}
+
+@-webkit-keyframes move {
+  0% {left: 0%;}
+  100% {left:100%;}
+}
+@-moz-keyframes move {
+  0% {left: 0%;}
+  100% {left:100%;}
+}
+@keyframes move {
+  0% {left: 0%;}
+  100% {left:100%;}
+}
+
+@-webkit-keyframes bgcolor {
+    0%  {background-color: #3498db;}
+    10% {background-color: #2980b9;}
+    15% {background-color: #2ecc71;}
+    20% {background-color: #27ae60;}
+    25% {background-color: #1abc9c;}
+    30% {background-color: #16a085;}
+    40% {background-color: #9b59b6;}
+    50% {background-color: #8e44ad;}
+    60% {background-color: #e74c3c;}
+    70% {background-color: #c0392b;}
+    80% {background-color: #e67e22;}
+    85% {background-color: #d35400;}
+    90% {background-color: #f1c40f;}
+    100%{background-color: #f39c12;}
+}
+@-moz-keyframes bgcolor {
+    0%  {background-color: #3498db;}
+    10% {background-color: #2980b9;}
+    15% {background-color: #2ecc71;}
+    20% {background-color: #27ae60;}
+    25% {background-color: #1abc9c;}
+    30% {background-color: #16a085;}
+    40% {background-color: #9b59b6;}
+    50% {background-color: #8e44ad;}
+    60% {background-color: #e74c3c;}
+    70% {background-color: #c0392b;}
+    80% {background-color: #e67e22;}
+    85% {background-color: #d35400;}
+    90% {background-color: #f1c40f;}
+    100%{background-color: #f39c12;}
+}
+@keyframes bgcolor {
+    0%  {background-color: #3498db;}
+    10% {background-color: #2980b9;}
+    15% {background-color: #2ecc71;}
+    20% {background-color: #27ae60;}
+    25% {background-color: #1abc9c;}
+    30% {background-color: #16a085;}
+    40% {background-color: #9b59b6;}
+    50% {background-color: #8e44ad;}
+    60% {background-color: #e74c3c;}
+    70% {background-color: #c0392b;}
+    80% {background-color: #e67e22;}
+    85% {background-color: #d35400;}
+    90% {background-color: #f1c40f;}
+    100%{background-color: #f39c12;}
+}
